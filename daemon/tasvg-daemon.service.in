@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 Leonardo Nobre <info@nobrehd.pt>
+# SPDX-License-Identifier: LGPL-2.0-or-later
+[Unit]
+Description=Theme-Aware SVG Thumbnail Cache Sync Daemon
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=@KDE_INSTALL_FULL_BINDIR@/tasvg-daemon
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

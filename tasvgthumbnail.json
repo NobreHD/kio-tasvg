@@ -1,0 +1,10 @@
+{
+  "KPlugin": {
+    "Name": "Theme-Aware SVG (tasvg)",
+    "Description": "Renders SVG previews with currentColor adapting to your desktop theme",
+    "MimeTypes": [
+      "image/svg+xml",
+      "image/svg+xml-compressed"
+    ]
+  }
+}
